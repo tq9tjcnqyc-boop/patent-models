@@ -14,3 +14,9 @@
 - Release 附件（>100MB）：`https://github.com/tq9tjcnqyc-boop/patent-models/releases/download/<tag>/<file>`
 
 ⚠️ 文件内容变更必须改文件名（加 -v2）绕 jsDelivr 永久缓存。
+
+## 大模型附件命名（2026-08-17 起）
+
+GitHub Release 附件不支持中文文件名（上传接口会自动改名），因此 >100MB 的模型以 `model-NN.3dm` 命名上传，中文标题与附件的对应关系见 [large-models-mapping.csv](large-models-mapping.csv)。
+
+下载地址：`https://github.com/tq9tjcnqyc-boop/patent-models/releases/download/large-models-v1/model-NN.3dm`
